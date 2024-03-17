@@ -5,6 +5,7 @@ header {
 .container {
   padding: 2rem 0;
   background-color: var(--bg-header);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .content {
@@ -12,4 +13,6 @@ header {
   display: flex;
   max-width: 90vw;
   justify-content: space-between;
+  align-items: center;
 }
+
